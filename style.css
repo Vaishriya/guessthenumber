@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+body {
+    font-family: 'Belanosima',sans-serif;
+}
+.container{
+    background-color:darkblue ;
+    color: whitesmoke;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100vh;
+    padding:0 20px;
+}
+.logo{
+    font-size:5em;
+    text-shadow:-2px -2px 0 whitesmoke,
+    2px -2px 0 whitesmoke,
+    -2px 2px 0 whitesmoke,
+    2px 2px 0 whitesmoke;
+}
+#start {
+  background-color:orange;
+  color:white;
+  height:40px;
+  width:140px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 10px 15px;
+  font-weight: 800;
+  margin: 30px 0;
+}
+input {
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+    margin: 30px;
+
+}
+#input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#submit{
+    margin-left: 100px;
+}
+h1 {
+    font-size: 3em;
+}
+#message {
+    display: none;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+    
+
+
